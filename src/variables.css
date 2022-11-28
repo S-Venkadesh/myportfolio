@@ -1,0 +1,48 @@
+:root {
+    /* --bg-color: linear-gradient(#212148, #2e172e, #002331); */
+    --bg-color:black;
+    --card-bg-color: #002042d9;
+    --transparent-bg-color: #a4a4a32e;
+    --transparent-border-color:#d4d4d491;
+    --shadow-color: #434343;
+    --card-reflaction: #000f2d;
+    --wire-color: white;
+    --board-border: #745738;
+    --board-background-color: radial-gradient(#191919, black, black)
+}
+
+@media screen {
+body.dark {
+    --transparent-bg-color:rgba(255, 255, 255, 0.05);
+    /* --bg-color: linear-gradient(#855988, #2B2F77, #070B34); */
+    --bg-color:#00122c;
+    --card-bg-color: #ffffff30;
+    --card-reflaction: #000f2d;
+    --wire-color: white;
+    --board-border: #745738;
+    --board-background-color: radial-gradient(#191919, black, black)
+}
+}
+
+@media screen {
+body.light {
+    /* --bg-color: linear-gradient(#f4f2ec, #f1f9fc, #dff0ff); */
+    --bg-color:#095071;
+    --card-bg-color: #002042d9;
+    --transparent-bg-color: #a4a4a32e;
+    --transparent-border-color:#d4d4d491;
+    --card-reflaction: #000f2d;
+    --wire-color: rgb(255, 255, 255);
+    --board-border: #bb8d5b;
+    --board-background-color: radial-gradient(#2f5b45, #034f29, #034f29)
+}
+}
+
+@media screen {
+    body.yellow {
+        --bg-color: #ffb04e;
+        --card-bg-color: #d24617;
+        --card-reflaction:#8d2c26;
+        --sun: "#white"
+    }
+}
